@@ -6,6 +6,9 @@ Created on Thu Dec  3 18:51:52 2020
 """
 import cv2 as cv
 import numpy as np
+import glob
+from random import sample
+
 
 # Aplica la mascara de bordes segun color
 def mascara(img):
@@ -15,3 +18,12 @@ def mascara(img):
     upper_blue = np.array([121, 255, 255])
     mask = cv.inRange(hsv, lower_blue, upper_blue)
     return mask
+
+img = cv.imread('1_reducido.jpg')
+mask = mascara(img)
+
+cv.imshow('imagen original',img)
+cv.imshow('imagen reducida',mask)
+
+cv.waitKey(0)
+cv.destroyAllWindows()
