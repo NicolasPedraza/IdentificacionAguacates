@@ -1,3 +1,0 @@
-En este proyecto titulado "Identificación y discriminación de Aguacates como objeto de interés", se encuentran adjuntadas 14 imágenes que fueron utilizadas para llevar a cabo la identificación del aguacate. El dataset fue obtenido del trabajo de grado de maestría "Modelo para la clasificación del aguacate Hass en sus estados comerciales y de exportación, mediante el uso de redes neuronales convolucionales" del ingeniero Cristian Camilo Salazar Salazar McS.
-
-Para obtener más información sobre el dataset de imágenes, ponerse en contacto con el ingeniero Cristian Camilo Salazar Salazar McS
